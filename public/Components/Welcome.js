@@ -9,7 +9,8 @@ class Welcome extends React.Component {
   }
 
   render() {
-    if (this.state.liked) {
+    if (this.state.liked) {y
+      
       return 'You liked this.';
     }
 
