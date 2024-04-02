@@ -1,6 +1,45 @@
 const projectList = document.querySelector('#card-deck');
 const projects = [
     {
+        name: "2023 End of Year Party",
+        id: "6",
+        date: "2023",
+        venue: "Ochetoha Ki Doma",
+        about: "This marks the end of 2023",
+        image: "./images/party/7.jpg",
+        images: [
+            "./images/party/1.jpg",
+            "./images/party/2.jpg",
+            "./images/party/3.jpg",
+            "./images/party/4.jpg",
+            "./images/party/5.jpg",
+            "./images/party/6.jpg",
+            "./images/party/7.jpg",
+        ]
+    },
+    {
+        name: "2023 Ochotaha AGM and Ogiri Okoh Memorial lecture",
+        id: "5",
+        date: "May 20, 2023",
+        venue: "Ochetoha Ki Doma",
+        about: "Inauguration of the new EXCO and other events at the 2023 Ochotaha AGM and Ogiri Okoh Memorial lecture at Otukpo,",
+        image: "./images/Inauguration/1.jpg",
+        images: [
+            "./images/Inauguration/1.jpg",
+            "./images/Inauguration/2.jpg",
+            "./images/Inauguration/3.jpg",
+            "./images/Inauguration/4.jpg",
+            "./images/Inauguration/5.jpg",
+            "./images/Inauguration/6.jpg",
+            "./images/Inauguration/7.jpg",
+            "./images/Inauguration/8.jpg",
+            "./images/Inauguration/9.jpg",
+            "./images/Inauguration/10.jpg",
+            "./images/Inauguration/11.jpg",
+            "./images/Inauguration/12.jpg",
+        ]
+    },
+    {
         name: "Distribution of sacks of garri cash to IDPs",
         id: "4",
         date: "July 14, 15, 2023",
@@ -130,6 +169,8 @@ const projects = [
             "./images/24.jpg",
         ]
     },
+
+
 
 
 ]
